@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protect Our Planet</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    header {
+      background: #2ecc71;
+      color: #fff;
+      padding: 1.5rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    header h1 {
+      margin: 0;
+      text-align: center;
+    }
+
+    header nav ul {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+      margin: 0;
+    }
+
+    header nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+
+    #hero {
+      background: url('wl.jpeg') no-repeat center center/cover;
+      color: #fff;
+      text-align: center;
+      padding: 8rem 1rem;
+    }
+
+    #hero h2 {
+      font-size: 2.5rem;
+    }
+
+    #hero .btn {
+      background: #e74c3c;
+      color: #fff;
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1.1rem;
+      margin-top: 1rem;
+      display: inline-block;
+    }
+
+    #hero .btn:hover {
+      background: #c0392b;
+    }
+
+    section {
+      padding: 3rem 0;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 2.2rem;
+    }
+
+    .reasons, .projects {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .reason, .project {
+      flex: 1;
+      padding: 1.5rem;
+      background: #f4f4f4;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .reason i, .project i {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #2ecc71;
+    }
+
+    .reason:hover, .project:hover {
+      background: #e8f5e9;
+      transform: translateY(-5px);
+      transition: 0.3s ease;
+    }
+
+    #contact form input, #contact form textarea {
+      width: 100%;
+      padding: 1rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    #contact form button {
+      background: #2ecc71;
+      color: #fff;
+      padding: 0.8rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    #contact form button:hover {
+      background: #27ae60;
+    }
+
+    footer {
+      text-align: center;
+      background: #2c3e50;
+      color: #fff;
+      padding: 1rem 0;
+      margin-top: 2rem;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Protect Our Planet</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#why-it-matters">Why It Matters</a></li>
+          <li><a href="#get-involved">Get Involved</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <h2>Join Us to Protect the Planet</h2>
+      <p>Small actions lead to big changes. Together, we can make a difference!</p>
+      <a href="#get-involved" class="btn">Get Involved</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We are a global initiative committed to promoting environmental sustainability through education, conservation efforts, and community engagement.</p>
+    </div>
+  </section>
+
+  <!-- Why It Matters Section -->
+  <section id="why-it-matters">
+    <div class="container">
+      <h2>Why It Matters</h2>
+      <div class="reasons">
+        <div class="reason">
+          <i class="fas fa-temperature-high"></i>
+          <h3>Climate Change</h3>
+          <p>Our actions directly impact global temperatures and weather patterns.</p>
+        </div>
+        <div class="reason">
+          <i class="fas fa-leaf"></i>
+          <h3>Biodiversity</h3>
+          <p>Protecting ecosystems ensures the survival of countless species.</p>
+        </div>
+        <div class="reason">
+          <i class="fas fa-tree"></i>
+          <h3>Deforestation</h3>
+          <p>We need forests for clean air and a stable climate.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get Involved Section -->
+  <section id="get-involved">
+    <div class="container">
+      <h2>How You Can Help</h2>
+      <ul>
+        <li>Reduce your carbon footprint by using renewable energy.</li>
+        <li>Participate in local conservation projects.</li>
+        <li>Support sustainable products and businesses.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Our Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <i class="fas fa-seedling"></i>
+          <h3>Reforestation</h3>
+          <p>Planting trees in degraded areas to restore ecosystems.</p>
+        </div>
+        <div class="project">
+          <i class="fas fa-paw"></i>
+          <h3>Wildlife Protection</h3>
+          <p>Working to preserve habitats and prevent species extinction.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Protect Our Planet. All rights reserved. | <a href="#hero">Back to Top</a></p>
+  </footer>
+</body>
+</html>
